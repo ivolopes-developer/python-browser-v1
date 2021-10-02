@@ -1,13 +1,18 @@
 ### Simple Python Browser
 
+## Dependencies
+  - pip install PyQt5
+  - pip install PyQtWebEngine
+
 <br />
 
+## About this project
 This is a simple python browser that I made just for fun and experience with QtWebEngineWidgets.
 
 <br />
 <br />
 
-## Some Images
+# Some Images
 
 <br/>
 
