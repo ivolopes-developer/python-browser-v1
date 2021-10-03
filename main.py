@@ -10,8 +10,6 @@ import sys
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtWebEngineWidgets import *
-from PyQt5 import QtGui
-from PyQt5.QtGui import QIcon
 
 
 class MainWindow(QMainWindow):
@@ -20,7 +18,6 @@ class MainWindow(QMainWindow):
         self.browser = QWebEngineView()
         self.browser.setUrl(QUrl('http://duckduckgo.com/'))
         self.setCentralWidget(self.browser)
-        self.setWindowIcon(QtGui.QIcon('window-icon.png'))
         self.showMaximized()
 
         # navigation bar ----------------
