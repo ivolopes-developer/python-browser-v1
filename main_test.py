@@ -33,8 +33,9 @@ class MainWindow(QMainWindow):
         navbar.addAction(forward_btn)
 
         reload_btn = QAction('Reload', self)
+
         reload_btn.triggered.connect(self.browser.reload)
-        navbar.addAction(reload_btn)
+        navbar.addActions(reload_btn)
 
         home_btn = QAction('Home', self)
         home_btn.triggered.connect(self.navigate_home)
